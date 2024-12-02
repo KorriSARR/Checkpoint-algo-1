@@ -1,0 +1,23 @@
+Algorithm copmteur_de_mot
+
+var
+CPTa, CPTb, CPTc, C : String;
+
+Begin
+
+read String (C)
+while C ≠ "." ;
+CPTa = CPTa + 1 ;
+print CPTa
+
+read String (C) ;
+while C ≠ " " et C ≠ "." ;
+CPTb = CPTb + 1;
+print CPTb;
+
+read String (C) ;
+while C ≠ " a, e, i, o, u, y" et C ≠ ".";
+CPTc = CPTc + 1;
+print CPTc;
+
+End
